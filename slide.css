@@ -1,0 +1,176 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+.container .header{
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0px auto;
+    align-items: center;
+    
+}
+
+.container .header .logo{
+    font-size: 1.7rem;
+    letter-spacing:3px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff;
+}
+.container .header .logo:hover{
+    color: #ff7200;
+    cursor: pointer;
+}
+.container  .header ul{
+    display: flex;
+    gap: 8rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 300;
+    font-size: .9rem;
+    cursor: pointer;
+   
+}
+
+.container  .header ul li a{
+   color: #fff;
+}
+
+.container  .header ul li a:hover{
+    color: #ff7200;
+}
+
+.container .banner{
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+
+.banner .glass-wrapper{
+width: 30%;
+height: 100%;
+background: rgba( 255, 255, 255, 0.2);
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 6px );
+-webkit-backdrop-filter: blur( 6px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+}
+
+
+.hero-title{
+    max-width: 1200px;
+    margin: 0px auto;
+    padding-top: 8rem;
+
+}
+
+.hero-title p{
+font-size: 2.9rem;
+font-weight: 800;
+text-transform: uppercase;
+line-height: 60px;
+color: #fff;
+}
+
+.hero-title .country{
+    font-size: 4.7rem;
+    letter-spacing: 3px;
+
+}
+
+
+.hero-title .details{
+    width: 65%;
+    padding-top: 1.5rem;
+    color: #fff;
+    font-weight: 300;
+    letter-spacing: 1.5px;
+    padding-bottom: 2.5rem;
+}
+
+.hero-title  .explore button{
+background: rgba( 255, 255, 255, 0.2 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 6px );
+-webkit-backdrop-filter: blur( 6px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+border: none;
+color: #fff;
+padding: 12px 50px;
+border-radius: 50px;
+letter-spacing: 1.5px;
+cursor: pointer;
+}
+
+
+.beach-list{
+    bottom: 25px;
+    position: absolute;
+    left: 45rem;
+    top: 530px;
+    
+}
+
+.beach-list ul{
+    display: flex;
+    gap: 20px;
+    width: 65vw;
+    height: 15rem;
+    align-items: center;
+   
+}
+.beach-list .thumnail{
+    display: flex;
+    height: 10rem;
+    width: 15rem;
+    background-size: cover;
+    border-radius: 8px;
+    flex-direction: column;
+    cursor: pointer;
+
+}
+
+
+.beach-list .place-list .deitails{
+margin-top: auto;
+padding:10px 0;
+background: rgba( 255, 255, 255, 0.05 );
+backdrop-filter: blur( 1.5px );
+-webkit-backdrop-filter: blur( 1.5px );
+}
+
+.beach-list .place-list .deitails .place-name{
+    font-size: 1.5rem;
+    font-weight: 700;
+   
+}
+
+.beach-list .place-list .deitails .province{
+    font-size: 1.4rem;
+    font-weight: 100;
+   
+}
+
+.beach-list .place-list .deitails p{
+    padding-left: 20px;
+    margin-bottom: auto;
+    line-height: 24px;
+}
+
+.place-list .active{
+    margin-top: -5rem;
+}
